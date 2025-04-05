@@ -27,41 +27,6 @@ body {
     transition-timing-function: linear !important;
 }
 
-.arrow {
-    animation: arrow-animate 500ms linear infinite;
-}
-
-
-.arrow-two {
-    animation: arrow-animate 505ms linear infinite;
-}
-
-.arrow-three {
-    animation: arrow-animate 509ms linear infinite;
-}
-
-.arrow-four {
-    animation: arrow-animate 513ms linear infinite;
-}
-
-.arrow-five {
-    animation: arrow-animate 517ms linear infinite;
-}
-
-.arrow-six {
-    animation: arrow-animate 521ms linear infinite;
-}
-
-@keyframes arrow-animate {
-    0% {
-        opacity: 100%;
-    }
-
-    100% {
-        opacity: 0;
-    }
-}
-
 .d-none {
     max-height: 0;
     overflow: hidden;
